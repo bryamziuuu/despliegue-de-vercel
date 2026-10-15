@@ -1,4 +1,9 @@
 [build]
   base = "Proyecto-ArteNauta"
-  publish = "Proyecto-ArteNauta/dist"
   command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
