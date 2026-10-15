@@ -1,4 +1,3 @@
 [build]
-  base = "Proyecto-ArteNauta"
   publish = "dist"
   command = "npm run build"
